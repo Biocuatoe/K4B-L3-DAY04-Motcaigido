@@ -135,9 +135,7 @@ Kết luận: ranh giới xác nhận ở tầng prompt **vỡ dưới áp lực
 ## B5. Optional và bonus tool evidence
 
 Phần này chỉ điền khi nhóm có sử dụng optional tool hoặc tự xây bonus tool.
-Phần chung tối đa 90 điểm; mở rộng tối đa 10 điểm, tổng tối đa 100. Công cụ tự xây để phục vụ luồng cơ bản của lĩnh vực mới thuộc phần chung. `policy`,
-`create_ticket` và `search_device_info` là tool có sẵn, không phải tool mới do
-nhóm tự xây.
+Phần chung tối đa 90 điểm; mở rộng tối đa 10 điểm, tổng tối đa 100. Công cụ tự xây để phục vụ luồng cơ bản của lĩnh vực mới thuộc phần chung. `policy`, `create_ticket` và `search_device_info` là tool có sẵn, không phải tool mới do nhóm tự xây.
 
 | Category | Evidence file | What worked | Risk / guardrail |
 |---|---|---|---|
@@ -161,9 +159,7 @@ nhóm tự xây.
 
 # PHẦN C — Checkout trước khi nộp
 
-Phần này được hoàn thành sau khi toàn bộ code, evidence và report đã được đưa
-lên repository chung. Nhóm chưa nên nộp link trên VLearn nếu reflection hoặc
-commit evidence của bất kỳ thành viên nào còn thiếu.
+Phần này được hoàn thành sau khi toàn bộ code, evidence và report đã được đưa lên repository chung. Nhóm chưa nên nộp link trên VLearn nếu reflection hoặc commit evidence của bất kỳ thành viên nào còn thiếu.
 
 ## C1. Nhận xét chung của nhóm
 
