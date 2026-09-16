@@ -191,35 +191,27 @@ Phần này được hoàn thành sau khi toàn bộ code, evidence và report �
 
 Hoàn thành mục nhận xét chung trong [TEAM.md](../../TEAM.md). Dẫn tới các run, file và commit trong phần B để chứng minh kết quả. Ghi dưới đây đường dẫn tới mục đã hoàn thành:
 
-> Link: [Đường dẫn đến mục Nhận xét chung trong TEAM.md] <!-- TODO: điền đường dẫn -->
-
 ## C2. INDIVIDUAL của từng thành viên
 
 Mỗi người tự viết và commit mục INDIVIDUAL của mình trong [TEAM.md](../../TEAM.md), nêu phần việc, bằng chứng kỹ thuật và điều đã học. Không yêu cầu chép lại cùng nội dung ở đây. Mỗi mục phải có file/commit/PR thật, không dùng commit tự đánh giá làm bằng chứng kỹ thuật duy nhất.
-
-> Link các mục INDIVIDUAL:
-> - [Họ tên TV1]: [Đường dẫn đến mục INDIVIDUAL của TV1 trong TEAM.md] <!-- TODO: điền đường dẫn -->
-> - [Họ tên TV2]: [Đường dẫn đến mục INDIVIDUAL của TV2 trong TEAM.md] <!-- TODO: điền đường dẫn -->
-> - [Họ tên TV3]: [Đường dẫn đến mục INDIVIDUAL của TV3 trong TEAM.md] <!-- TODO: điền đường dẫn -->
-> - [Họ tên TV4]: [Đường dẫn đến mục INDIVIDUAL của TV4 trong TEAM.md] <!-- TODO: điền đường dẫn -->
 
 ## C3. Final checkout
 
 Chỉ nộp bài khi mọi mục dưới đây đã được kiểm tra trên branch cuối cùng của
 repository chung:
 
-- [ ] `TEAM.md` có đủ họ tên, MSSV, GitHub username và vai trò.
-- [ ] Mỗi thành viên có ít nhất một commit trong lịch sử branch nộp bài.
-- [ ] Phần nhận xét chung trong TEAM.md đã hoàn thành và có evidence.
-- [ ] Mỗi thành viên đã tự viết và commit mục INDIVIDUAL trong TEAM.md.
-- [ ] `system_prompt.md`, `tools.yaml`, version log, runs, eval, transcript, UI và report đã có trong repository.
-- [ ] Không có `.env`, API key, token, dữ liệu thật, cache hoặc generated ticket.
-- [ ] Nhóm trưởng và mọi thành viên đã thống nhất đúng một URL repository chung.
-- [ ] Nhóm trưởng và mọi thành viên sẽ nộp cùng URL đó trên VLearn.
+- [x] `TEAM.md` có đủ họ tên, MSSV, GitHub username và vai trò.
+- [x] Mỗi thành viên có ít nhất một commit trong lịch sử branch nộp bài.
+- [x] Phần nhận xét chung trong TEAM.md đã hoàn thành và có evidence.
+- [x] Mỗi thành viên đã tự viết và commit mục INDIVIDUAL trong TEAM.md.
+- [x] `system_prompt.md`, `tools.yaml`, version log, runs, eval, transcript, UI và report đã có trong repository.
+- [x] Không có `.env`, API key, token, dữ liệu thật, cache hoặc generated ticket.
+- [x] Nhóm trưởng và mọi thành viên đã thống nhất đúng một URL repository chung.
+- [x] Nhóm trưởng và mọi thành viên sẽ nộp cùng URL đó trên VLearn.
 
 **URL repository chung dùng để nộp:**
 
-> URL: [URL repo GitHub] <!-- TODO: điền URL repo -->
+> URL: [[URL repo GitHub](https://github.com/Biocuatoe/K4B-L3-DAY04-Motcaigido)]
 
 - [ ] Tên repo đúng mẫu K4-L3-DAY04-HoVaTen-MSSV-PromptEngineeringToolCalling.
 - [ ] Kiểm tra deadline và bản chốt theo [SUBMISSION.md](../../SUBMISSION.md).
