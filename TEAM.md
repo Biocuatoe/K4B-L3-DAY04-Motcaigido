@@ -9,6 +9,12 @@
 - Tên repo: K4B-L3-DAY04-Motcaigido
 - URL repo, nhánh nộp, commit chốt: [URL repo](https://github.com/Biocuatoe/K4B-L3-DAY04-Motcaigido)
 
+## Demo webapp
+
+Web chat của nhóm (`starter_v0/webapp.py` + `starter_v0/webapp/`): chọn provider/model/version v0–v3, hiển thị tool call + args + kết quả/lỗi + badge phiên bản, tự lưu transcript. Chạy: `python webapp.py` → `http://127.0.0.1:8765`.
+
+![Demo webapp Helpdesk — tool call policy và search_kb trên bản artifact v3, provider openai gpt-4o-mini](starter_v0/docs/webapp-demo.png)
+
 ## Thành viên
 
 | Họ và tên | MSSV | GitHub | Vai trò và công việc | File/commit/PR |
@@ -113,3 +119,4 @@ Sao chép mục này cho từng thành viên.
 - **Thời điểm đã tự nộp URL repo chung trên VLearn:** 11:00AM 16th September 2026
 
 ---
+  

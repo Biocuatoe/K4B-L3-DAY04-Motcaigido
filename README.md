@@ -56,6 +56,12 @@ Giữ toàn bộ source trong `starter_v0/`, đồng thời commit evidence th�
 
 Không commit `.env`, API key, dữ liệu thật, `.venv`, cache hoặc ticket phát sinh. Tên repo, cấu trúc nộp và checklist đầy đủ nằm ở [SUBMISSION.md](SUBMISSION.md).
 
+## Demo webapp của nhóm
+
+Chạy `python webapp.py` trong `starter_v0/` rồi mở `http://127.0.0.1:8765` — chọn provider/model/version v0–v3 trong sidebar; khung chat hiển thị từng tool call, tham số, kết quả/lỗi và badge phiên bản artifact, mỗi phiên tự lưu transcript vào `transcripts/`.
+
+![Demo webapp Helpdesk — chat với agent, hiển thị tool call policy và search_kb, badge v3 và provider openai gpt-4o-mini](starter_v0/docs/webapp-demo.png)
+
 ## Chuẩn bị và bắt đầu
 
 Cần Python 3.10+, Git/GitHub và API key của một provider hỗ trợ tool calling. Chỉ cần `TAVILY_API_KEY` nếu nhóm dùng tìm kiếm thông tin thiết bị trên web.
