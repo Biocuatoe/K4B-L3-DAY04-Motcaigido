@@ -72,4 +72,16 @@ Sao chép mục này cho từng thành viên.
 
 - **Thời điểm đã tự nộp URL repo chung trên VLearn:** 07:16:21 16/9/2026
 
+###  Nguyễn Huy Hoàng — 2A202602738
+
+- **Phần việc và file/commit/PR:**
+  - Chạy baseline v0 trên eval_base.json, phân tích toàn bộ 10 case fail và phân nhóm thành 3 loại lỗi (wrong_tool, missing_info, wrong_boundary); đề xuất giả thuyết cho nhóm missing_info.
+- **Quyết định, khó khăn và cách xử lý:**
+  - Khó nhất là phân biệt ranh giới giữa wrong_tool (H04, H13, H17 — tool đúng nhưng args sai) và missing_info (H10, H11, H19 — tool sai do thiếu thông tin gốc). Xử lý bằng cách xét gốc rễ: nếu người dùng đã cung cấp đủ thông tin nhưng model trích xuất sai → wrong_tool; nếu người dùng chưa cung cấp thông tin hợp lệ mà model vẫn hành động → missing_info.
+- **Điều đã học:**
+  - Baseline không fail ngẫu nhiên — 3 case missing_info có cùng một khuôn mẫu hành vi (đoán giá trị thay vì hỏi), cho thấy đây là lỗ hổng rule trong system prompt chứ không phải nhiễu của model. Việc phân nhóm lỗi rõ ràng trước khi sửa giúp định hướng đúng rule cần bổ sung, tránh sửa lan man.
+- **AI/công cụ đã dùng và cách kiểm tra:**
+  - OpenAI/OpenRouter API, dùng Claude để hỗ trợ đọc và đối chiếu chi tiết của từng case fail trong file kết quả v0: Kiểm tra chéo bằng summary.failure_counts (wrong_tool: 4, missing_info: 3, wrong_boundary: 3), case_failure_type/observed_mismatch xem có khớp không để đảm bảo không bỏ sót case nào.
+- **Thời điểm đã tự nộp URL repo chung trên VLearn:** 10:00AM 16th September 2026
+
 ---
