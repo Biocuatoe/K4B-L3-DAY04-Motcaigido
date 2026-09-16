@@ -85,6 +85,31 @@ Sao chép mục này cho từng thành viên.
   - OpenAI/OpenRouter API, dùng Claude để hỗ trợ đọc và đối chiếu chi tiết của từng case fail trong file kết quả v0: Kiểm tra chéo bằng summary.failure_counts (wrong_tool: 4, missing_info: 3, wrong_boundary: 3), case_failure_type/observed_mismatch xem có khớp không để đảm bảo không bỏ sót case nào.
 - **Thời điểm đã tự nộp URL repo chung trên VLearn:** 10:00AM 16th September 2026
 
+
+### Nguyễn Văn Thăng — 2A202602835
+
+- **Phần việc và file/commit/PR:**
+  - Phụ trách v1: sửa `system_prompt.md` theo giả thuyết #1, thêm quy tắc "Never guess" và mục Missing information
+  - Chạy v1 và so sánh với v0: +3 case (20→23/30)
+  - Đề xuất giả thuyết #2: "Tạo ticket không xác nhận" — agent gọi `create_ticket` luôn mà không hỏi xác nhận
+  - File: `artifacts/system_prompt.md`, `runs/v1_B_base_*.json`
+
+- **Quyết định, khó khăn và cách xử lý:**
+  - Khó khăn: thêm rule mà không làm agent quá cứng nhắc, vẫn trả lời được câu hỏi thường gặp
+  - Cách xử lý: thêm ví dụ cụ thể về khi nào phải clarify
+  - Quyết định: dùng `clarify` kiểu `choice` cho environment (demo/QA/dev → production/staging)
+
+- **Điều đã học:**
+  - Sửa `system_prompt.md` thay đổi hành vi agent ngay mà không cần sửa code
+  - Mỗi rule mới cần cân bằng giữa ràng buộc và khả năng trả lời linh hoạt
+  - Version log giúp track từng thay đổi và so sánh công bằng
+
+- **AI/công cụ đã dùng và cách kiểm tra:**
+  - AI: dùng AI để draft rule mới, sau đó tự review lại
+  - Kiểm tra: chạy lại bộ 30 case, kiểm tra `case_accuracy` tăng
+
+- **Thời điểm đã tự nộp URL repo chung trên VLearn:** 11:15AM 16th September 2026 
+
 ---
 
 ### Nguyễn Hà Khuê — 2A202602938
